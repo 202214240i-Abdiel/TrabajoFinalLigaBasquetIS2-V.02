@@ -1,0 +1,215 @@
+/* Diseño personalizado naranja y blanco para la Liga de Básquetbol */
+
+:root {
+    --naranja: #f97316;
+    --naranja-oscuro: #ea580c;
+    --naranja-suave: #fff7ed;
+    --blanco: #ffffff;
+    --texto: #1f2937;
+    --gris: #f9fafb;
+    --borde: #fed7aa;
+}
+
+/* Fondo blanco general */
+body {
+    background: #ffffff !important;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--texto);
+}
+
+/* Fondo blanco para login/register */
+.min-h-screen {
+    background: #ffffff !important;
+}
+
+h1, h2, h3 {
+    color: var(--naranja-oscuro);
+    font-weight: 800;
+}
+
+a {
+    color: var(--naranja-oscuro);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #9a3412;
+    text-decoration: underline;
+}
+
+/* Contenedor principal de las vistas */
+div[style*="padding: 30px"] {
+    background: var(--blanco);
+    margin: 30px auto;
+    max-width: 1120px;
+    border-radius: 18px;
+    padding: 32px !important;
+    box-shadow: 0 10px 28px rgba(249, 115, 22, 0.12);
+    border: 1px solid var(--borde);
+}
+
+/* Navegación */
+header.bg-white,
+nav.bg-white {
+    background: var(--blanco) !important;
+    border-bottom: 3px solid var(--naranja) !important;
+}
+
+.shadow {
+    box-shadow: 0 5px 20px rgba(249, 115, 22, 0.10) !important;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--blanco);
+    overflow: hidden;
+    border-radius: 14px;
+    border: 1px solid var(--borde);
+}
+
+table th {
+    background: var(--naranja);
+    color: white;
+    padding: 13px;
+    text-align: left;
+}
+
+table td {
+    padding: 12px;
+    border: 1px solid #ffedd5;
+}
+
+table tr:nth-child(even) {
+    background: var(--naranja-suave);
+}
+
+table tr:hover {
+    background: #ffedd5;
+}
+
+/* Formularios */
+label {
+    font-weight: 700;
+    color: #7c2d12;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="datetime-local"],
+select {
+    width: 100%;
+    max-width: 470px;
+    padding: 11px;
+    border: 1px solid #fdba74;
+    border-radius: 10px;
+    margin-top: 6px;
+    background: #ffffff;
+    color: #111827;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="datetime-local"]:focus,
+select:focus {
+    outline: none;
+    border-color: var(--naranja);
+    box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.18);
+}
+
+/* Checkbox normal, para que Recordarme no se vea como botón */
+input[type="checkbox"] {
+    width: 16px !important;
+    height: 16px !important;
+    max-width: 16px !important;
+    padding: 0 !important;
+    margin-right: 8px;
+    accent-color: var(--naranja);
+}
+
+/* Botones reales */
+button,
+button[type="submit"],
+.auth-button {
+    background: var(--naranja) !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 18px !important;
+    border-radius: 10px !important;
+    cursor: pointer;
+    font-weight: 800 !important;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover,
+button[type="submit"]:hover,
+.auth-button:hover {
+    background: var(--naranja-oscuro) !important;
+    transform: translateY(-1px);
+}
+
+/* Evita que etiquetas flex del login se conviertan en botones */
+.inline-flex.items-center {
+    background: transparent !important;
+    color: inherit !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+
+/* Mensajes */
+p[style*="color: green"] {
+    background: #dcfce7;
+    color: #166534 !important;
+    padding: 12px;
+    border-radius: 10px;
+    max-width: 540px;
+    font-weight: 700;
+}
+
+/* Tarjeta de login/register */
+.sm\:max-w-md,
+.max-w-md {
+    background: white !important;
+    border: 1px solid #fed7aa !important;
+    box-shadow: 0 12px 35px rgba(154, 52, 18, 0.16) !important;
+}
+
+.auth-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--naranja-oscuro);
+    margin-bottom: 8px;
+}
+
+.auth-subtitle {
+    text-align: center;
+    color: #7c2d12;
+    margin-bottom: 20px;
+}
+
+/* Enlaces de módulos */
+.module-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 18px 0;
+}
+
+.module-links a {
+    background: var(--naranja-suave);
+    border: 1px solid #fdba74;
+    border-radius: 10px;
+    padding: 10px 14px;
+}
+
+.module-links a:hover {
+    background: #fed7aa;
+    text-decoration: none;
+}
