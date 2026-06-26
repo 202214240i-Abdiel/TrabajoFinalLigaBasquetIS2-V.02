@@ -1,3 +1,6 @@
 # TrabajoFinalLigaBasquetIS2-V.02
 
-OK INTENTO DE RECONEXIO 02 a la X
+OK INTENTO DE RECONEXIO 02 a la X 
+
+Adriana Lucia
+
