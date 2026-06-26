@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+/* Abdiel Merma - CRUD del Jugador*/
 use App\Models\Equipo;
 use Illuminate\Http\Request;
 
