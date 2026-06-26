@@ -1,3 +1,4 @@
+/*! Adriana desarrollasora panel para editar */
 <x-app-layout>
     <x-slot name="header">
         <h2>Gestión de Partidos</h2>
