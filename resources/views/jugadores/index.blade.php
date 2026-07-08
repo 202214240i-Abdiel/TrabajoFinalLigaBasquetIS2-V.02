@@ -1,3 +1,4 @@
+/* Abdiel Merma - Index de jugadore*/
 <x-app-layout>
     <x-slot name="header">
         <h2>Gestión de Jugadores</h2>

@@ -1,3 +1,5 @@
+/* Abdiel Merma - Edicion directo pa jugadores*/
+
 <x-app-layout>
     <x-slot name="header">
         <h2>Editar Jugador</h2>

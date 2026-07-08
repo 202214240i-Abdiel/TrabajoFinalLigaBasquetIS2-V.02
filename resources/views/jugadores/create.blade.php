@@ -1,3 +1,5 @@
+/* Abdiel Merma - Creacion de jugador*/
+
 <x-app-layout>
     <x-slot name="header">
         <h2>Crear Jugador</h2>
