@@ -1,5 +1,6 @@
 <?php
 
+/*! Adriana desarrollasora de control de partido */
 namespace App\Http\Controllers;
 
 use App\Models\Partido;
