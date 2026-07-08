@@ -1,5 +1,11 @@
 # Documentación técnica: Sistema de Gestión de Liga de Básquetbol
 
+PARTICIPANTES :
+
+Merma Gordillo Abdiel J. 
+Álvarez Suma Adriana L. 
+Joel Palomino Acuña
+
 ## Descripción general
 
 El sistema desarrollado corresponde a una aplicación web para gestionar la información principal de una liga de básquetbol. La aplicación permite registrar usuarios, iniciar sesión y administrar los módulos de equipos, jugadores, partidos y estadísticas básicas. El proyecto fue implementado con PHP usando el framework Laravel, MySQL como base de datos y Git/GitHub como herramienta de control de versiones.
